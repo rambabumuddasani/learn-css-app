@@ -1,0 +1,435 @@
+.container {
+  /* 01a */
+
+  position: absolute;
+  left: 71.95%;
+  right: 21.57%;
+  top: 35.15%;
+  bottom: 40.46%;
+
+  background: #f5f7f9;
+}
+
+.header_navigation {
+  /* Navigation / 01 Top Nav / 01 Basic with Text Button */
+  position: absolute;
+  width: 375px;
+  height: 64px;
+  left: 0px;
+  top: 24px;
+}
+
+.top_div {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ffffff;
+}
+.close_btn {
+  /* Icons / Close */
+  position: absolute;
+  left: 4.27%;
+  right: 89.33%;
+  /*  top: 46.88%;*/
+  top: 35.88%;
+  bottom: 15.62%;
+}
+
+.scam_label {
+  /* ↳ ✍️ Label */
+
+  position: absolute;
+  height: 19px;
+  left: 56px;
+  right: 57px;
+  top: 33px;
+
+  font-family: SFProText;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.16px;
+
+  /* Global / Slate 110 */
+
+  color: #172733;
+}
+
+.fraud_illustration_base {
+  position: absolute;
+  width: 375px;
+  height: 156px;
+  left: 0px;
+  top: 88px;
+  background: linear-gradient(180deg, #ffffff 0%, #f5f7f9 100%);
+}
+
+.ib_link_outer {
+  /* Frame 123738 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+
+  position: absolute;
+  width: 343px;
+  height: 71px;
+  left: 16px;
+  top: 440px;
+
+  background: #ffffff;
+  border: 1px solid #dde3e7;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.ib_link_inner {
+  /* Frame 11502 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 303px;
+  height: 39px;
+  left: 20px;
+  top: 16px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /*   margin: 16px 0px; commented by me to adjust the magin */
+}
+
+.ib_link_header {
+  /* Content */
+
+  position: static;
+  height: 14px;
+  left: 0px;
+  right: 157px;
+  top: 0px;
+
+  font-family: SF Pro Text;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #6f7981;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /*   margin: 8px 0px; by ram*/
+}
+
+.ib_link_active_checkbox_link {
+  /* Frame 123737 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 303px;
+  height: 17px;
+  left: 0px;
+  top: 22px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+.ib_link_active_checkbox_icon {
+  /* Icons / Selection Control / iOS Native / Checkbox / Active */
+  position: static;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.ib_link_active_checkbox_text {
+  /* Content */
+  position: static;
+  width: 279px;
+  height: 17px;
+  left: calc(50% - 279px / 2 + 12px);
+  top: 0px;
+
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 121% */
+
+  letter-spacing: -0.14px;
+
+  /* Global / Slate 110 */
+
+  color: #172733;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.fraud_illustration {
+  position: absolute;
+  width: 126px;
+  height: 126px;
+  left: 125px;
+  /*   top: 111px; */
+  top: 18px;
+}
+
+.main_label {
+  position: absolute;
+  width: 310px;
+  height: 56px;
+  left: 33px;
+  top: 260px;
+
+  font-family: SF Pro Text;
+  font-size: 21px;
+  line-height: 28px;
+  /* or 133% */
+  text-align: center;
+  letter-spacing: -0.18px;
+  /* Global / Slate 110 */
+  color: #172733;
+}
+
+.check_instruction_outer {
+  /* Frame 11502 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 303px;
+  height: 92px;
+  left: 36px;
+  top: 332px;
+}
+.check_instruction_1 {
+  /* Frame 123737 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 303px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+
+.check_instruction_2 {
+  /* Frame 123738 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 303px;
+  height: 34px;
+  left: 0px;
+  top: 58px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 6px 0px;
+}
+.frame1_icon {
+  position: static;
+  left: 0%;
+  right: 94.72%;
+  top: 0%;
+  bottom: 52.94%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+.frame2_icon {
+  /* Illuss + Icons / Success */
+  position: static;
+  left: 0%;
+  right: 94.72%;
+  top: 0%;
+  bottom: 52.94%;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.frame1_content {
+  /* Content */
+
+  position: static;
+  width: 279px;
+  height: 34px;
+  left: calc(50% - 279px / 2 + 12px);
+  top: 0px;
+
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 121% */
+
+  letter-spacing: -0.14px;
+
+  /* Main/Black 1 - #172633 */
+
+  color: #172633;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.only_continue {
+  /* msg */
+
+  position: absolute;
+  width: 327px;
+  height: 40px;
+  left: 24px;
+  top: 618px;
+
+  font-family: SF Pro Text;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: -0.1225px;
+
+  /* Global / Slate 90 */
+
+  color: #455057;
+}
+
+.continue_btn {
+  /* Container */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ff3e3e;
+  border-radius: 4px;
+
+  width: 343px;
+  height: 48px;
+  left: 15px;
+  top: 674px;
+
+  /* ↳ ✍️ Title */
+
+
+  font-family: SF Pro Text;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.cancel_btn{
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /* top: 0%; */
+    /* bottom: 0%; */
+    border: 1px solid #FF3E3E;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 15px;
+    top: 730px;
+    position: absolute;
+    /* height: 19px; */
+    /* left: 137.5px; */
+    right: 137.5px;
+    /* top: 14.5px; */
+    font-family: SF Pro Text;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FF3E3E;
+}
+
